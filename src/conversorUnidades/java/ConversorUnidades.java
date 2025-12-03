@@ -2,9 +2,11 @@ package conversorUnidades.java;
 
 public class ConversorUnidades {
 
-	public static void main(String[] args) {
+	
 		// TODO Auto-generated method stub
-
+		public static double celsiusAFahrenheit(double celsius) {
+		    return (celsius * 9/5) + 32;
+		}
 	}
 
-}
+
